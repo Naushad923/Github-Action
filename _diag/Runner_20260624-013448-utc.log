@@ -1,0 +1,105 @@
+[2026-06-24 01:34:48Z INFO HostContext] No proxy settings were found based on environmental variables (http_proxy/https_proxy/HTTP_PROXY/HTTPS_PROXY)
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'Credentials': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'Runner': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.runner'
+[2026-06-24 01:34:48Z INFO Listener] Runner is built for Windows (X64) - win-x64.
+[2026-06-24 01:34:48Z INFO Listener] RuntimeInformation: Microsoft Windows 10.0.26100.
+[2026-06-24 01:34:48Z INFO Listener] Version: 2.335.1
+[2026-06-24 01:34:48Z INFO Listener] Commit: 7d737449ef346f6524f75688d0c9c95fa10ba10a
+[2026-06-24 01:34:48Z INFO Listener] Culture: en-IN
+[2026-06-24 01:34:48Z INFO Listener] UI Culture: en-US
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO Listener] Validating directory permissions for: 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO CommandLineParser] Parse
+[2026-06-24 01:34:48Z INFO CommandLineParser] Parsing 5 args
+[2026-06-24 01:34:48Z INFO CommandLineParser] parsing argument
+[2026-06-24 01:34:48Z INFO CommandLineParser] HasArgs: False
+[2026-06-24 01:34:48Z INFO CommandLineParser] Adding Command: remove
+[2026-06-24 01:34:48Z INFO CommandLineParser] parsing argument
+[2026-06-24 01:34:48Z INFO CommandLineParser] HasArgs: True
+[2026-06-24 01:34:48Z INFO CommandLineParser] arg: url
+[2026-06-24 01:34:48Z INFO CommandLineParser] parsing argument
+[2026-06-24 01:34:48Z INFO CommandLineParser] HasArgs: True
+[2026-06-24 01:34:48Z INFO CommandLineParser] Adding option 'url': 'https://github.com/Naushad923/Github-Action'
+[2026-06-24 01:34:48Z INFO CommandLineParser] parsing argument
+[2026-06-24 01:34:48Z INFO CommandLineParser] HasArgs: True
+[2026-06-24 01:34:48Z INFO CommandLineParser] arg: token
+[2026-06-24 01:34:48Z INFO CommandLineParser] parsing argument
+[2026-06-24 01:34:48Z INFO CommandLineParser] HasArgs: True
+[2026-06-24 01:34:48Z INFO CommandLineParser] Adding option 'token': '***'
+[2026-06-24 01:34:48Z INFO Listener] Arguments parsed
+[2026-06-24 01:34:48Z INFO CommandSettings] Command 'configure': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Command 'remove': 'True'
+[2026-06-24 01:34:48Z ERR  Terminal] WRITE ERROR: Unrecognized command-line input arguments for command remove: 'url'. For usage refer to: .\config.cmd --help or ./config.sh --help
+[2026-06-24 01:34:48Z INFO Runner] ExecuteCommand
+[2026-06-24 01:34:48Z INFO ConfigurationStore] currentAssemblyLocation: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin\Runner.Listener.dll
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] binPath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] RootFolder: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'Runner': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.runner'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] ConfigFilePath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.runner
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'MigratedRunner': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.runner_migrated'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] MigratedConfigFilePath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.runner_migrated
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'Credentials': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] CredFilePath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'MigratedCredentials': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials_migrated'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] MigratedCredFilePath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials_migrated
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:48Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:48Z INFO HostContext] Well known config file 'Service': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.service'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] ServiceConfigFilePath: C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.service
+[2026-06-24 01:34:48Z INFO CommandSettings] Flag 'help': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Flag 'version': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Flag 'commit': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Flag 'check': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Command 'configure': 'False'
+[2026-06-24 01:34:48Z INFO CommandSettings] Command 'remove': 'True'
+[2026-06-24 01:34:48Z INFO CommandSettings] Flag 'local': 'False'
+[2026-06-24 01:34:48Z INFO ConfigurationStore] IsServiceConfigured()
+[2026-06-24 01:34:48Z INFO ConfigurationStore] IsServiceConfigured: False
+[2026-06-24 01:34:48Z INFO ConfigurationStore] IsConfigured()
+[2026-06-24 01:34:48Z INFO ConfigurationStore] IsConfigured: True
+[2026-06-24 01:34:48Z INFO ConfigurationStore] HasCredentials()
+[2026-06-24 01:34:48Z INFO ConfigurationStore] stored True
+[2026-06-24 01:34:48Z INFO ConfigurationStore] Read setting file: 403 chars
+[2026-06-24 01:34:48Z INFO CommandSettings] Arg 'token': '***'
+[2026-06-24 01:34:48Z INFO CommandSettings] Remove token from Arg dictionary.
+[2026-06-24 01:34:49Z INFO ConfigurationManager] Http response code: OK from 'POST https://api.github.com/actions/runner-registration' (EC0C:37F739:1892411:1A88764:6A3B3439)
+[2026-06-24 01:34:49Z INFO ConfigurationManager] cred retrieved via GitHub auth
+[2026-06-24 01:34:49Z INFO RunnerServer] EstablishVssConnection
+[2026-06-24 01:34:49Z INFO RunnerServer] Establish connection with 100 seconds timeout.
+[2026-06-24 01:34:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-24 01:34:49Z INFO RunnerServer] EstablishVssConnection
+[2026-06-24 01:34:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-06-24 01:34:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-24 01:34:49Z INFO RunnerServer] EstablishVssConnection
+[2026-06-24 01:34:49Z INFO RunnerServer] Establish connection with 60 seconds timeout.
+[2026-06-24 01:34:49Z INFO GitHubActionsService] Starting operation Location.GetConnectionData
+[2026-06-24 01:34:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-24 01:34:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-24 01:34:50Z INFO GitHubActionsService] Finished operation Location.GetConnectionData
+[2026-06-24 01:34:51Z INFO Terminal] WRITE LINE: 
+[2026-06-24 01:34:51Z INFO ConfigurationStore] IsConfigured()
+[2026-06-24 01:34:51Z INFO ConfigurationStore] IsConfigured: True
+[2026-06-24 01:34:51Z INFO ConfigurationStore] HasCredentials()
+[2026-06-24 01:34:51Z INFO ConfigurationStore] stored True
+[2026-06-24 01:34:51Z INFO HostContext] Well known directory 'Bin': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\bin'
+[2026-06-24 01:34:51Z INFO HostContext] Well known directory 'Root': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner'
+[2026-06-24 01:34:51Z INFO HostContext] Well known config file 'RSACredentials': 'C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials_rsaparams'
+[2026-06-24 01:34:51Z INFO RSAEncryptedFileKeyManager] Deleting RSA key parameters file C:\DevOps Insider\Daily Practice\GitHub Action\actions-runner\.credentials_rsaparams
+[2026-06-24 01:34:51Z INFO Terminal] WRITE LINE: 
+[2026-06-24 01:34:51Z INFO Listener] Runner execution has finished with return code 0

@@ -1,0 +1,11 @@
+﻿{
+  "agentId": 22,
+  "agentName": "naushad",
+  "poolId": 1,
+  "poolName": "Default",
+  "serverUrl": "https://pipelinesghubeus26.actions.githubusercontent.com/mmkZTJ8co5O2M7zhqqJKwfeHJX7QaJGKyUcPca1znS5jS5n8DT/",
+  "gitHubUrl": "https://github.com/Naushad923/Github-Action",
+  "workFolder": "Github-Action",
+  "useV2Flow": true,
+  "serverUrlV2": "https://broker.actions.githubusercontent.com/"
+}
