@@ -12,8 +12,15 @@ jobs:
     steps:
       # - uses: actions/checkout@v4
       - uses: Azure/login@v3
-      - name: az login
-        run: az login --service-principal --username 54d39da4-5fac-445e-beed-05fb8cc68cab --password 6Vh8Q~htCnGNO31EnKI.LYAGO736ivINdBodsdt- --tenant 769f02f0-a8ac-43dd-84c2-aec6b69e0ca3
+        with:
+         client-id: 54d39da4-5fac-445e-beed-05fb8cc68cab
+         tenant-id: 769f02f0-a8ac-43dd-84c2-aec6b69e0ca3
+         subscription-id: 1a30159f-af5b-44d4-bb50-65d81a807d4a
+         
+         
+          
+      # - name: az login
+      #   run: az login --service-principal --username 54d39da4-5fac-445e-beed-05fb8cc68cab --password 6Vh8Q~htCnGNO31EnKI.LYAGO736ivINdBodsdt- --tenant 769f02f0-a8ac-43dd-84c2-aec6b69e0ca3
 
       - name: init
         run: terraform init
