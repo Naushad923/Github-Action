@@ -10,7 +10,8 @@ jobs:
   build:
     runs-on: self-hosted
     steps:
-      - uses: actions/checkout@v4
+      # - uses: actions/checkout@v4
+      - uses: Azure/login@v3
       - name: az login
         run: az login --service-principal --username 54d39da4-5fac-445e-beed-05fb8cc68cab --password 6Vh8Q~htCnGNO31EnKI.LYAGO736ivINdBodsdt- --tenant 769f02f0-a8ac-43dd-84c2-aec6b69e0ca3
 
