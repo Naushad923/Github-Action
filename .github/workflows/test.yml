@@ -9,12 +9,21 @@ jobs:
   build-and-deploy:
     runs-on: self-hosted
     steps:
+
+      - name: Check Secrets 
+        run: | 
+            echo "CLIENT_ID_PRESENT=${{ secrets.ARM_CLIENT_ID != '' }}" 
+            echo "TENANT_ID_PRESENT=${{ secrets.ARM_TENANT_ID != '' }}" 
+            echo "SUBSCRIPTION_ID_PRESENT=${{ secrets.ARM_SUBSCRIPTION_ID != '' }}"
+            echo "SUBSCRIPTION_ID_PRESENT=${{ secrets.ARM_CLIENT_SECRET != '' }}"
+        
       - name: Azure login
         uses: azure/login@v3
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: ${{ secrets.ARM_CLIENT_ID }}
+          tenant-id: ${{ secrets.ARM_TENANT_ID }}
+          subscription-id: ${{ secrets.ARM_SUBSCRIPTION_ID }}
+          # secret-id: ${{secrets.ARM_CLIENT_SECRET}}
 
       - name: Terrafor Init
         run: terraform init
