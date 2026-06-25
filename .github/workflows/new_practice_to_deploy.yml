@@ -18,7 +18,7 @@ jobs:
       #     --tenant ${{ secrets.AZURE_TENANT_ID }}
        # az account set --subscription ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Set Subscription
+      - name: Set Subscriptions
         run: |
           az account set --subscription ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
