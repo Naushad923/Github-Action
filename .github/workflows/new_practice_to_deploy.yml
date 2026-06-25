@@ -21,5 +21,5 @@ jobs:
       # - name: Set Subscription
       #   run: az account set --subscription ${{ secrets.AZURE_SUBSCRIPTION_ID }}
 
-      - name: Terraform Init
+      - name: Terrafor Init
         run: terraform init
