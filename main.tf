@@ -27,3 +27,9 @@ resource "azurerm_storage_account" "staccount" {
   account_replication_type = "LRS"
   
 }
+
+resource "azurerm_resource_group" "rg3" {
+  name = "git-nau-rg1"
+  location = "westus"
+  
+}
