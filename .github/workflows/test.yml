@@ -1,29 +1,20 @@
 name: terraformcode
 
 on:
-  workflow_dispatch:
-permissions:
-  id-token: write
-  contents: read
+ workflow_dispatch:
+ push:
+  branches:
+  - main
+
 jobs:
   build-and-deploy:
     runs-on: self-hosted
     steps:
-
-      - name: Check Secrets 
-        run: | 
-            echo "CLIENT_ID_PRESENT=${{ secrets.ARM_CLIENT_ID != '' }}" 
-            echo "TENANT_ID_PRESENT=${{ secrets.ARM_TENANT_ID != '' }}" 
-            echo "SUBSCRIPTION_ID_PRESENT=${{ secrets.ARM_SUBSCRIPTION_ID != '' }}"
-            echo "SUBSCRIPTION_ID_PRESENT=${{ secrets.ARM_CLIENT_SECRET != '' }}"
-        
       - name: Azure login
-        uses: azure/login@v3
-        with:
-          client-id: ${{ secrets.ARM_CLIENT_ID }}
-          tenant-id: ${{ secrets.ARM_TENANT_ID }}
-          subscription-id: ${{ secrets.ARM_SUBSCRIPTION_ID }}
-          # secret-id: ${{secrets.ARM_CLIENT_SECRET}}
+        run: az login --service-principal --username 54d39da4-5fac-445e-beed-05fb8cc68cab --password "cbY8Q~K4Y32L1efm15aG5Xj30_2zI0Fks6SWjc12" --tenant 769f02f0-a8ac-43dd-84c2-aec6b69e0ca3
 
       - name: Terrafor Init
         run: terraform init
+      
+      - name: Terrafor Plan
+        run: terraform plan -auto-approve  
